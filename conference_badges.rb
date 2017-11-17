@@ -7,3 +7,7 @@ def batch_badge_creator(list_of_names)
     badge_maker(name)
   end
 end
+
+def assign_rooms(list_of_names)
+  "Hello #{name}! You'll be assign to room #{room}!"
+end
