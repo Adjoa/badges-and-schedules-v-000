@@ -10,6 +10,6 @@ end
 
 def assign_rooms(names)
   names.each_with_index.collect do |name, room|
-    puts "Hello #{name}! You'll be assigned to room #{room}!"
+    return "Hello #{name}! You'll be assigned to room #{room}!"
   end
 end
