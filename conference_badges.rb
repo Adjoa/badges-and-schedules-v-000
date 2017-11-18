@@ -24,3 +24,4 @@ def printer(attendees)
     puts "#{room}"
   end
 end
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
