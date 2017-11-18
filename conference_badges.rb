@@ -1,4 +1,4 @@
-# require 'pry'
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(attendee)
  return "Hello, my name is #{attendee}."
@@ -20,8 +20,7 @@ end
 def printer(attendees)
   badges = batch_badge_creator(attendees)
   badges.each {|badge| puts "#{badge}"}
-  
+
   rooms = assign_rooms(attendees)
   rooms.each {|room| puts "#{room}"}
 end
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
