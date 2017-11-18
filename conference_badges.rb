@@ -1,3 +1,5 @@
+require 'pry'
+
 def badge_maker(attendee)
  return "Hello, my name is #{attendee}."
 end
